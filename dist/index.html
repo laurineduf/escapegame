@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Code Escape game</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html> <html lang="fr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Escape Game Coordonnées</title> <link rel="stylesheet" href="style.css"> </head> <body> <div class="container"> <h1>Entrez les coordonnées :</h1> <div class="coordinate-input"> <div class="input-group"> <input type="text" id="part1" maxlength="2" class="small-input" placeholder="__" /> </div> <span>.</span> <div class="input-group"> <input type="text" id="part2-1" maxlength="2" class="mini-input" placeholder="__" /> <input type="text" id="part2-2" maxlength="2" class="mini-input" placeholder="__" /> <input type="text" id="part2-3" maxlength="3" class="medium-input" placeholder="___" /> </div> <span>,</span> <div class="input-group"> <input type="text" id="part3" maxlength="1" class="tiny-input" placeholder="_" /> </div> <span>.</span> <div class="input-group"> <input type="text" id="part4-1" maxlength="2" class="mini-input" placeholder="__" /> <input type="text" id="part4-2" maxlength="2" class="mini-input" placeholder="__" /> <input type="text" id="part4-3" maxlength="3" class="medium-input" placeholder="___" /> </div> </div> <button onclick="verifyCode()">Vérifier</button> </div> <div id="popup" class="popup"> <div class="popup-content"> <span id="popup-message"></span> <button onclick="closePopup()">Fermer</button> </div> </div> <div id="success-popup" class="popup"> <div class="popup-content"> <h2>Bravo, escape game résolu ! !</h2> <p>Rendez-vous chez "Les Caboteurs" à Cugnaux pour un festin a s'en tordre l'intestin !!</p> <button onclick="closePopup()">Fermer</button> </div> </div> <script src="script.js"></script> </body> </html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
